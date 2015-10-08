@@ -27,5 +27,3 @@ printf("// Max Quality Image".PHP_EOL."%s".PHP_EOL.PHP_EOL, print_r($data->max()
 
 ## Autoplay Video Link
 printf("// Autoplay Video Link".PHP_EOL."%s".PHP_EOL.PHP_EOL, print_r($data->video(), true));
-
-exit();
