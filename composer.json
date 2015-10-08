@@ -6,11 +6,17 @@
     "authors": [
         {
             "name": "PauloSouza.info",
-            "email": "paulosouza.info@gmail.com"
+            "email": "paulosouza.info@gmail.com",
+            "role": "creator"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4"
+    },
+    "autoload" : {
+        "psr-4": {
+             "PauloSouza\\": "src/"
+        }
     }
 }

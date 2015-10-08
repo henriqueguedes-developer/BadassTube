@@ -1,7 +1,7 @@
 <?php
-require_once __DIR__.'/BadassTube.php';
+require_once __DIR__.'/vendor/autoload.php';
 
-$data = new BadassTube('https://www.youtube.com/watch?v=RJDmph8ov0k&feature=youtu.be');
+$data = new PauloSouza\BadassTube('https://www.youtube.com/watch?v=RJDmph8ov0k&feature=youtu.be');
 
 echo '======================================================'.PHP_EOL;
 printf("// Thumbs".PHP_EOL."%s".PHP_EOL.PHP_EOL, print_r($data->thumbs(), true));

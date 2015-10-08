@@ -1,7 +1,5 @@
 <?php
-/*
- * 
- */
+namespace PauloSouza;
 class BadassTube {
 	public static $data = [];
 	public $errors = [];
