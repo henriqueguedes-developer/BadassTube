@@ -3,7 +3,7 @@ namespace PauloSouza;
 class BadassTube {
 	public static $data = [];
 	public $errors = [];
-	public $imageBaseLink = 'http://img.youtube.com/vi/%s/%s.jpg';
+	public $imageBaseLink = 'https://img.youtube.com/vi/%s/%s.jpg';
 
 	public function __construct($youtubeLink)
 	{
