@@ -1,0 +1,16 @@
+{
+    "name": "paulosouzainfo/badasstube",
+    "description": "Generating all links to a Youtube video. Extremely easy and fast, using the URL of the video.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "PauloSouza.info",
+            "email": "paulosouza.info@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    }
+}
