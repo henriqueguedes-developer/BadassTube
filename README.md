@@ -5,7 +5,7 @@ Generating all links to a Youtube video. Extremely easy and fast, using the URL 
 require_once __DIR__ . '/vendor/autoload.php';
 
 ## Instantiate the class
-$data = new Video\BadassTube('https://www.youtube.com/watch?v=RJDmph8ov0k&feature=youtu.be');
+$data = new BadassTube('https://www.youtube.com/watch?v=RJDmph8ov0k&feature=youtu.be');
 
 ## Thumbnails
 printf("// Thumbs".PHP_EOL."%s".PHP_EOL.PHP_EOL, print_r($data->thumbs(), true));
