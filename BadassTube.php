@@ -1,5 +1,7 @@
 <?php
-namespace Video;
+/*
+ * 
+ */
 class BadassTube {
 	public static $data = [];
 	public $errors = [];
